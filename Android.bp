@@ -5,10 +5,3 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-    name: "sensors.oplus_ssc",
-    srcs: ["proprietary/vendor/lib64/sensors.oplus_ssc.so"],
-    target_arch: "arm64",
-    vendor: true
-}
-
